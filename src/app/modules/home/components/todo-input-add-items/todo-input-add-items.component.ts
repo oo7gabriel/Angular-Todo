@@ -16,8 +16,6 @@ export class TodoInputAddItemsComponent implements OnInit {
   }
 
   public submitItemTaskList(){
-    console.log(this.addItemTaskList);
-
 
     this.addItemTaskList = this.addItemTaskList.trim();
     if(this.addItemTaskList){
